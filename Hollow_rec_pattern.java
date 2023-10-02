@@ -1,0 +1,24 @@
+package CodeWithHarry;
+import java.util.Scanner;
+public class Hollow_rec_pattern {
+    public static void main(String[] args) {   //code for Implementing Hollow Patter in java 
+        
+          int n=4;
+          int m=5;
+
+          for(int i=1;i<=n;i++){
+            for(int j=1;j<=m;j++){
+                if(i==1||j==1||i==n||j==m){
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
+
+            }
+            System.out.println();
+
+        }
+  
+}
+}
